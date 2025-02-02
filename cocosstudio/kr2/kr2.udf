@@ -1,0 +1,42 @@
+<UserData Version="3.10.0.0">
+  <Properties>
+    <Item Key="CocosRecentOperation">
+      <Value ctype="CocosRecentOperation">
+        <LastPublishType Value="Resource" />
+        <IsLastPublish Value="True" />
+        <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.kr2" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="" />
+        <iOS_Target Value="kr2 iOS" />
+        <iOS_BundleID Value="" />
+        <Platform Value="None" />
+        <RunPlatform Value="None" />
+        <FrameworkVersion Value="cocos2d-x-3.6" />
+        <IsDebugKeystore Value="True" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="ui/MenuList.csd" />
+          <FilePathData Path="ui/MessageBox.csd" />
+          <FilePathData Path="ui/MediaPlayerNavi.csd" />
+          <FilePathData Path="ui/MainFileSelector.csd" />
+          <FilePathData Path="ui/NaviBarWithMenu.csd" />
+          <FilePathData Path="ui/NaviBarWithMenu2.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="ui/NaviBarWithMenu2.csd" />
+      </Value>
+    </Item>
+  </Properties>
+</UserData>

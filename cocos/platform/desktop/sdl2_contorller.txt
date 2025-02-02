@@ -1,0 +1,37 @@
+https://github.com/weimingtom/krkrsdl2-miyoo-a30/blob/master/src/core/sdl2/SDLApplication.cpp
+
+				case SDL_CONTROLLERBUTTONDOWN:
+				case SDL_CONTROLLERBUTTONUP: {
+#if defined(USE_DEBUG_INPUT)
+SDL_Log("%s, %s, %d\n", 
+(event.type == SDL_CONTROLLERBUTTONDOWN) ? 
+	"SDL_CONTROLLERBUTTONDOWN" : 
+	"SDL_CONTROLLERBUTTONUP", 
+(event.cbutton.state == SDL_PRESSED) ? 
+	"SDL_PRESSED" : 
+	"SDL_RELEASED", 
+event.cbutton.button);
+#endif				
+					switch (event.cbutton.state) {
+						case SDL_PRESSED:
+#if 1						
+							TVPPostInputEvent(new tTVPOnKeyDownInputEvent(TJSNativeInstance, sdl_gamecontrollerbutton_to_vk_key(event.cbutton.button, &isQuit, s, 0, TJSNativeInstance), s));
+#endif
+							break;
+							
+						case SDL_RELEASED:
+#if 1
+							if (!SDL_IsTextInputActive())
+							{
+								TVPPostInputEvent(new tTVPOnKeyPressInputEvent(TJSNativeInstance, sdl_gamecontrollerbutton_to_vk_key(event.cbutton.button, &isQuit, s, 0, TJSNativeInstance)));
+							}						
+							TVPPostInputEvent(new tTVPOnKeyUpInputEvent(TJSNativeInstance, sdl_gamecontrollerbutton_to_vk_key(event.cbutton.button, &isQuit, s, 1, TJSNativeInstance), s));
+#else
+sdl_gamecontrollerbutton_to_vk_key(event.cbutton.button, &isQuit, s, 1, TJSNativeInstance);
+#endif								
+							if (isQuit) {
+								TVPPostInputEvent(new tTVPOnCloseInputEvent(TJSNativeInstance));
+							}
+							break;
+					}
+					
