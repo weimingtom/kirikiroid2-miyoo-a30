@@ -5,6 +5,7 @@
 * It can run a simple GBK kirikiri game, but dpad arrow key is not available, I make the up and down key to emulate TAB key  
 * Dpad up and down button (actually TAB key) have no visual feedback when in start main menu  
 * Currently only tested for Trimui Smart Pro. Trimui brick and Miyoo A30 are not tested   
+* It uses cocos2d-x design resolution instead full screen, need to be fixed  
 
 ## History  
 * 2025-02-02: final version before open source  
