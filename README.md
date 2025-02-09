@@ -1,6 +1,10 @@
 # kirikiroid2-miyoo-a30
 [WIP] kirikiroid2 MIYOO A30, TRIMUI SMART PRO, TRIMUI BRICK port for code hacking and kirikiri2 gbk non-commercial unencrypted games
 
+## Status  
+* It can run a simple GBK kirikiri game, but dpad arrow key is not available, I make the up and down key to emulate TAB key  
+* Dpad up and down button (actually TAB key) have no visual feedback when in start main menu  
+
 ## History  
 * 2025-02-02: final version before open source  
 * 2025-01-01: first study and compiling     
