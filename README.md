@@ -64,7 +64,10 @@ make MIYOO=0 clean && make MIYOO=0 -j8
 ```
 * For Trimui Smart Pro  
 ```
-(Edit Makefile to add toolchain path)  
+(Edit Makefile to add toolchain path, see  
+https://github.com/trimui/toolchain_sdk_smartpro/releases/tag/20231018  
+https://github.com/XK9274/a30-sdk-miyoo/releases/tag/16042024  
+)  
 make MIYOO=2 clean && make MIYOO=2 -j8  
 ```
 
