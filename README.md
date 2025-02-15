@@ -57,12 +57,14 @@ Ptr == NULL bug, if defined(LINUX), if without this code, then gcc -O3 -g0 and r
 Handle = open(filename, rw, 0600);  
 
 ## Build  
-* For PC  
+* For PC, xubuntu 20.04 64bit (Should support glfw3)      
 ```
+sudo apt install libglfw3-dev libsdl2-dev libfreetype-dev  
 make MIYOO=0 clean && make MIYOO=0 -j8  
 ```
 * For Trimui Smart Pro  
 ```
+(Edit Makefile to add toolchain path)  
 make MIYOO=2 clean && make MIYOO=2 -j8  
 ```
 
