@@ -11,6 +11,61 @@
 * 2025-02-02: final version before open source  
 * 2025-01-01: first study and compiling     
 
+## References  
+* https://github.com/zeas2/Kirikiroid2  
+* Kirikiroid2 1.3.8   
+* https://github.com/zeas2/Kirikiroid2/releases/tag/1.3.8  
+* https://github.com/weimingtom/kirikiroid2lite  
+* https://github.com/weimingtom/cocos2d-x-3.6-miyoo-a30  
+* https://github.com/weimingtom/linnea  
+* http://www.cocos2d-x.org/filedown/cocos2d-x-3.6.zip  
+* http://www.cocos2d-x.org/filedown/CocosForWin-v3.10.exe  
+* https://github.com/fusijie/Cocos-Resource  
+* https://github.com/weimingtom/Kirikiroid2  
+* https://gitee.com/weimingtom/kirikiroid2_fork  
+* https://gitee.com/weimingtom/Kirikiroid2  
+
+## Key code:  
+* src/core/environ/ui/MainFileSelectorForm.cpp  
+src/core/environ/ui/FileSelectorForm.cpp  
+src/core/environ/ui/BaseForm.cpp  
+src/core/environ/cocos2d/readme_kirikiroid2_ui.txt  
+cocosstudio/kr2/cocosstudio/ui/NaviBarWithMenu2.csd  
+cocosstudio/kr2/cocosstudio/ui/NaviBarWithMenu.csd  
+Resources/ui/NaviBarWithMenu2.csb  
+* src/core/environ/cocos2d/MainScene.cpp  
+The game screen after clicking the item of MainFileSelectorForm  
+* cocos/platform/desktop/CCGLViewImpl-desktop.cpp  
+cocos/platform/desktop/CCGLViewImpl-desktop.h   
+* cocos/ui/UIButton.cpp  
+* src/core/sound/win32/WaveMixer.cpp  
+Audio output  
+* proj.linux/main.cpp  
+* src/core/environ/cocos2d/breakpoint.txt  
+(gdb) catch throw  
+* src/core/environ/android/AndroidUtils.cpp  
+* src/core/environ/cocos2d/AppDelegate.cpp  
+glview->setDesignResolutionSize(1280, 720, ResolutionPolicy::SHOW_ALL);  
+src/core/environ/cocos2d/design_resolution.txt    
+* src/core/environ/cocos2d/CustomFileUtils.cpp  
+src/core/environ/cocos2d/CustomFileUtils.h  
+* src/core/tjs2/tjsConfig.cpp  
+valist pointer bug  
+* src/core/tjs2/tjsString.h  
+Ptr == NULL bug, if defined(LINUX), if without this code, then gcc -O3 -g0 and run will crash  
+* src/core/utils/minizip/ioapi.cpp  
+Handle = open(filename, rw, 0600);  
+
+## Build  
+* For PC  
+```
+make MIYOO=0 clean && make MIYOO=0 -j8  
+```
+* For Trimui Smart Pro  
+```
+make MIYOO=2 clean && make MIYOO=2 -j8  
+```
+
 ## weibo record
 ```
 kirikiroid2研究。打算先从SDL2入手研究声音播放。我猜测声音问题
