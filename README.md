@@ -6,6 +6,7 @@
 * Dpad up and down button (actually TAB key) have no visual feedback when in start main menu  
 * Currently only tested for Trimui Smart Pro. Trimui brick and Miyoo A30 are not tested   
 * It uses cocos2d-x design resolution instead full screen, need to be fixed  
+* PC version shows 2 windows, the hidden one is used to receive gamepad controller input  
 
 ## History  
 * 2025-02-02: final version before open source  
