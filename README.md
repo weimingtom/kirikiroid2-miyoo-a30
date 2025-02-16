@@ -26,6 +26,10 @@
 * https://gitee.com/weimingtom/kirikiroid2_fork  
 * https://gitee.com/weimingtom/Kirikiroid2  
 
+## About what are xp3filter.tjs and patch.tjs   
+* kirikiroid2调试，一张梗图：  
+https://tieba.baidu.com/p/8962163653    
+
 ## Key code:  
 * src/core/environ/ui/MainFileSelectorForm.cpp  
 src/core/environ/ui/FileSelectorForm.cpp  
