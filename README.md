@@ -25,6 +25,11 @@
 * https://github.com/weimingtom/Kirikiroid2  
 * https://gitee.com/weimingtom/kirikiroid2_fork  
 * https://gitee.com/weimingtom/Kirikiroid2  
+* https://github.com/yangosoft/cocos2d-x-arm-opengles  
+
+## TODO
+* Merge yangosoft/cocos2d-x-arm-opengles SDL2 GLES2 code, merge two windows to one window (see PPSSPP's source code)     
+* Dpad support for the file browser  
 
 ## About what are xp3filter.tjs and patch.tjs   
 * kirikiroid2调试，一张梗图：  
