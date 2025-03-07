@@ -32,7 +32,8 @@
 * Dpad support for the file browser  
 
 ## Bugs    
-* 可以进入看到第九日体验版的主菜单，但进入游戏正文会闪退  
+* 可以进入看到第九日体验版的主菜单，但进入游戏正文会闪退    
+9th-trial - Exe(2016.1.12).rar  
 
 ## About what are xp3filter.tjs and patch.tjs   
 * kirikiroid2调试，一张梗图：  
