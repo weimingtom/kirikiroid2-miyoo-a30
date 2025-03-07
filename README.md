@@ -31,6 +31,9 @@
 * Merge yangosoft/cocos2d-x-arm-opengles SDL2 GLES2 code, merge two windows to one window (see PPSSPP's source code)     
 * Dpad support for the file browser  
 
+## Bugs    
+* 可以进入看到第九日体验版的主菜单，但进入游戏正文会闪退  
+
 ## About what are xp3filter.tjs and patch.tjs   
 * kirikiroid2调试，一张梗图：  
 https://tieba.baidu.com/p/8962163653    
