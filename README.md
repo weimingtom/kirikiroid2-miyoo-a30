@@ -73,8 +73,11 @@ Handle = open(filename, rw, 0600);
 ## Build  
 * For PC, xubuntu 20.04 64bit (Should support glfw3)      
 ```
-sudo apt install libglfw3-dev libsdl2-dev libfreetype-dev  
-make MIYOO=0 clean && make MIYOO=0 -j8  
+sudo apt install make gcc g++ gdb libglfw3-dev libsdl2-dev libfreetype-dev libpng-dev zlib1g-dev libjpeg-dev libbz2-dev  
+make MIYOO=0 clean  
+make MIYOO=0 -j8  
+make test
+./kirikiroid2  
 ```
 * For Trimui Smart Pro  
 ```
