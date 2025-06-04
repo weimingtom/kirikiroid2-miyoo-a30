@@ -30,6 +30,7 @@
 ## TODO
 * Merge yangosoft/cocos2d-x-arm-opengles SDL2 GLES2 code, merge two windows to one window (see PPSSPP's source code)     
 * Dpad support for the file browser  
+* (Not Sure, Bug) Only support software renderer (软件渲染器) in the global settings, not support OpenGL renderer（OpenGL渲染器，实验性）  
 
 ## Bugs    
 * 可以进入看到第九日体验版的主菜单，但进入游戏正文会闪退    
